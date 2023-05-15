@@ -1,0 +1,46 @@
+* {
+  letter-spacing: 2px;
+}
+.title {
+  font-size: 35px;
+  display: grid;
+  place-items: center;
+}
+.bd_text {
+  line-height: 25px;
+  font-size: 22px;
+}
+.bd_contant {
+  height: 400px;
+  width: auto;
+}
+.dice_container {
+  margin-top: 80px;
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+}
+.bd_action {
+  display: grid;
+  place-items: center;
+}
+.btn_roll {
+  background-color: #5035ff;
+  width: 180px;
+  height: 70px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  border: 0px solid;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn_roll:focus {
+  outline: none;
+}
+.btn_roll:active {
+  box-shadow: inset 10px 10px 15px -10px rgba(0, 0, 0, 0.7);
+}

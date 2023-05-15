@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  padding: 200px;
+  place-items: center;
+  background: #2b283a;
+  margin: 0;
+}
+
+main {
+  background-color: #ffffff;
+  height: 600px;
+  width: 550px;
+  border-radius: 20px;
+  padding: 60px 80px 0px 80px;
+}
